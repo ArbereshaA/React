@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+.bg-hexagonal-pattern {
+  background-image: url("./assets/maskbg.png");
+}
+
+.newclass {
+  position: relative;
+  background-image: url("./assets/writemsgbg.png");
+  background-size: cover;
+  background-position: center;
+}
+/* Hover effect for first link */
+.hover-ketajob:hover {
+  content: url("assets/ketajobwhite.png"); /* Change to white version */
+  transition: transform 0.3s ease; /* Optional zoom effect */
+  transform: scale(1.1);
+}
+
+/* Hover effect for second link */
+.hover-ketapromo:hover {
+  content: url("assets/promowhite.png"); /* Change to white version */
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+
+/* Hover effect for third link */
+.hover-ketaimmotreu:hover {
+  content: url("assets/imotreuWhite.png"); /* Change to white version */
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+
+/* Hover effect for fourth link */
+.hover-ketacoin:hover {
+  content: url("assets/ketacoinWhite.png"); /* Change to white version */
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}

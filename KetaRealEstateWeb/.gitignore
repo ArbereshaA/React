@@ -1,0 +1,7 @@
+# .gitignore
+**/env.js
+**/config.js
+node_modules/
+keta-backend/uploads/
+keta-backend/bloguploads/
+keta-web/env
