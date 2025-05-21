@@ -741,6 +741,31 @@ function LandingPage() {
           )}
         </div>
       </div>
+      <div className="flex flex-col items-center justify-center pb-8 px-4 text-center">
+        {/* Title with lines on each side */}
+        <div className="flex items-center w-full pb-4">
+          <div className="border-t border-white flex-grow mr-4 ml-7"></div>
+          <p className="py-12 text-lg md:text-xl lg:text-2xl font-light tracking-wider text-white font-montserrat uppercase">
+            KETA REAL ESTATE BROCHURE
+          </p>
+          <div className="border-t border-white flex-grow ml-4 mr-7"></div>
+        </div>
+
+        {/* Paragraph below title */}
+        <p className="text-white text-sm md:text-base max-w-2xl mb-6 font-light">
+          Explore our latest brochure and get exclusive insights into Dubai's
+          most luxurious properties, investment opportunities, and lifestyle
+          offerings.
+        </p>
+
+        <a
+          href="/test.pdf"
+          download="Mytest.pdf"
+          className="bg-white text-[#001F3F] font-semibold py-2 px-6 rounded-md shadow-md hover:bg-gray-100 transition duration-300"
+        >
+          Download
+        </a>
+      </div>
       <div className=" flex items-center justify-center pb-4">
         <div className="border-t border-whiter flex-grow mr-4 ml-7"></div>
         <p className="py-12 text-lg md:text-xl lg:text-2xl font-light tracking-wider text-white text-center font-montserrat uppercase">
